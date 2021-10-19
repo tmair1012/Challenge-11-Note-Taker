@@ -8,3 +8,4 @@ app.get('/api/notes', (req, res) => {
     console.log('get route', dbNotes)
     res.json(dbNotes);
 })
+
