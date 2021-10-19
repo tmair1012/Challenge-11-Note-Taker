@@ -30,7 +30,7 @@ app.delete('/api/notes/:id', (req, res)=> {
             updateNote.push(dbNotes[i])
         }
     }
-    dbNotes = updatedNote
+    dbNotes = updateNote
     fs.writeFileSync('./db/db.json', JSON.stringify(dbNotes), function(err,data){
         if(err) throw err;
     })
