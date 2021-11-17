@@ -30,3 +30,6 @@ No License
 tyleramair@gmail.com
 
 ### Screenshots:
+<img width="1680" alt="Note-Taker-Heroku" src="https://user-images.githubusercontent.com/87788050/142294055-f127963a-0150-4da9-adfb-b70da3c027a6.png">
+<img width="1680" alt="Note-Taker-dashboard" src="https://user-images.githubusercontent.com/87788050/142294082-32f27a00-bf6f-4968-97e0-aab88f96b833.png">
+<img width="1680" alt="Note-Taker-Code" src="https://user-images.githubusercontent.com/87788050/142294113-4a9bea28-203e-4d6e-99dc-9c1d44d3ea65.png">
