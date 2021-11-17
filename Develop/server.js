@@ -3,7 +3,7 @@ const express = require('express');
 //Use Express
 const app = express();
 //Signify Port for local host
-const PORT = process.env.PORT || 2000;
+const PORT = process.env.PORT
 
 //call use of routes
 const apiroutes = require('./routes/apiRoutes');
