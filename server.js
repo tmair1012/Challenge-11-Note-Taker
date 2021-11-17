@@ -4,7 +4,7 @@ const express = require('express');
 require('dotenv').config();
 const app = express();
 //Signify Port for local host
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 3001
 
 //call use of routes
 const apiroutes = require('./routes/apiRoutes');
