@@ -1,6 +1,7 @@
 //Dependencies
 const express = require('express');
 //Use Express
+require('dotenv').config();
 const app = express();
 //Signify Port for local host
 const PORT = process.env.PORT
@@ -21,5 +22,5 @@ app.use(HTMLroutes)
 //=======================================================
 //Listener
 app.listen(PORT, () => {
-    console.log(`App listening on PORT ${PORT}`);
+    console.log(`App listening on ` + PORT);
 })
