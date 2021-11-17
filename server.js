@@ -1,8 +1,9 @@
 //Dependencies
 const express = require('express');
 //Use Express
-require('dotenv').config();
 const app = express();
+require('dotenv').config();
+
 //Signify Port for local host
 const PORT = process.env.PORT || 3001
 
