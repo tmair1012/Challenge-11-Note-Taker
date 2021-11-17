@@ -34,7 +34,7 @@ app.delete('/api/notes/:id', (req, res)=> {
     fs.writeFileSync('./db/db.json', JSON.stringify(dbNotes), function(err,data){
         if(err) throw err;
     })
-    console.log('delet route', dbNotes);
+    console.log('delete route', dbNotes);
     res.json(dbNotes);
 })
 
