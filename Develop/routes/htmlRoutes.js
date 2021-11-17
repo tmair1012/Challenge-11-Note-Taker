@@ -11,6 +11,7 @@ app.get('/' , (req, res) => {
 app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/notes.html'))
 });
+//Render initial html page if url is mistyped
 app.get('*' , (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'))
 });
